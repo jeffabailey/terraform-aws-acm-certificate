@@ -17,7 +17,7 @@
 
 ## Overview
 
-![Terraform Module: AWS ACM Certificate](https://raw.githubusercontent.com/operatehappy/terraform-aws-acm-certificate/master/overview.png "Terraform Module: AWS ACM Certificate")
+![Terraform Module: AWS ACM Certificate](https://raw.githubusercontent.com/jeffabailey/terraform-aws-acm-certificate/master/overview.png "Terraform Module: AWS ACM Certificate")
 
 ## Requirements
 
@@ -33,7 +33,7 @@ Add the module to your Terraform resources like so:
 
 ```hcl
 module "acm_certificate" {
-  source  = "operatehappy/acm-certificate/aws"
+  source  = "jeffabailey/acm-certificate/aws"
   version = "1.1.0"
 
   providers = {
@@ -53,9 +53,9 @@ module "acm_certificate" {
 }
 ```
 
-Then, fetch the module from the [Terraform Registry](https://registry.terraform.io/modules/operatehappy/acm-certificate) using `terraform get`.
+Then, fetch the module from the [Terraform Registry](https://registry.terraform.io/modules/jeffabailey/acm-certificate) using `terraform get`.
 
-Additional usage examples are available in the `examples` directory via [GitHub](https://github.com/operatehappy/terraform-aws-acm-certificate/tree/master/examples).
+Additional usage examples are available in the `examples` directory via [GitHub](https://github.com/jeffabailey/terraform-aws-acm-certificate/tree/master/examples).
 
 ### Inputs
 
@@ -78,9 +78,9 @@ Additional usage examples are available in the `examples` directory via [GitHub]
 
 ## Author Information
 
-This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/terraform-aws-acm-certificate/graphs/contributors).
+This module is maintained by the contributors listed on [GitHub](https://github.com/jeffabailey/terraform-aws-acm-certificate/graphs/contributors).
 
-Development of this module was sponsored by [Operate Happy](https://github.com/operatehappy).
+Development of this module was sponsored by [Operate Happy](https://github.com/jeffabailey).
 
 ## License
 
